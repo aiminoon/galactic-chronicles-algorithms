@@ -28,8 +28,9 @@ Each part maps a story beat from a space-opera narrative onto a real algorithmic
 
 ```
 ├── part1_asteroid_labyrinth/
-│   ├── asteroid_pathfinding.py
-│   └── sample_output.png
+|   ├── asteroid_pathfinding.py
+│   ├── sample_output.png
+│   └── Asteroid_Field_Data.csv
 ├── part2_market_of_moira/
 │   ├── market_filter_sort.py
 │   └── Moira_Market_Items.csv
@@ -41,23 +42,21 @@ Each part maps a story beat from a space-opera narrative onto a real algorithmic
 │   └── Stargate_Data.csv
 ├── part5_ai_override/
 │   ├── ai_override_knapsack.py
-│   └── System_Data.csv
+│   └── AI_Override_System_Data.csv
 ├── part6_ores_negotiation/
 │   ├── docking_scheduler.py
-│   └── Docking_Data.csv
+│   └── Docking_Requests_Dataset.csv
 ├── part7_echoes_of_ancients/
 │   └── caesar_decode.py
-├── report/
-│   └── OCC2_G8_report.pdf
 ├── requirements.txt
 └── README.md
 ```
 
 ## My Contribution
 
-I was individually responsible for **Part 1: The Asteroid Labyrinth**, combining grid-based density analysis with BFS to chart a safe navigation path through 300 simulated asteroids. Full problem breakdown, pseudocode, and complexity analysis are in the report and in `part1_asteroid_labyrinth/`.
+I was individually responsible for **Part 1: The Asteroid Labyrinth**, combining grid-based density analysis with BFS to chart a safe navigation path through 300 simulated asteroids. Problem breakdown, pseudocode, and complexity analysis for this part are documented in the code comments and the section below.
 
-The remaining parts were completed by teammates as part of a 6-person group project; the full report (`report/OCC2_G8_report.pdf`) documents every section, including problem summaries, alternative approaches considered, and sample outputs.
+The remaining parts were completed by teammates as part of a 6-person group project. Each folder here focuses on the algorithm and implementation rather than reproducing the full academic report, to keep the repository focused on code.
 
 ## Running the Code
 
@@ -70,7 +69,16 @@ Each part is self-contained and expects its corresponding CSV in the same folder
 
 ## Team
 
-Developed by Group 8 (Occurrence 2), supervised by Dr. Uzair Iqbal, Faculty of Computer Science and Information Technology, Universiti Malaya.
+Developed by Group 8 (Occurrence 2), WIA2005 Algorithm Design and Analysis, supervised by Dr. Uzair Iqbal, Faculty of Computer Science and Information Technology, Universiti Malaya.
+
+| Member | Part(s) |
+|--------|---------|
+| Dennis Aimin Oon bin Jeffrey Oon (Me) | Part 1 — The Asteroid Labyrinth |
+| Athiya Fahirah binti Ahmad Nafrawi | Part 2 — Market of Moira |
+| Hani Nur 'Ain binti Norhazlan | Part 3 — The Stowaway Protocol |
+| Yoonseo Han | Part 4 — The Broken Stargate |
+| Mohammad Faris Ikhwan bin Jalali | Part 5 — AI Override |
+| Muhammad Imran bin Ilias | Part 6 — The Ores Negotiation, Part 7 — Echoes of the Ancients |
 
 ## References
 
